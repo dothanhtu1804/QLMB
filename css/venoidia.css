@@ -1,0 +1,256 @@
+body {
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* end tong quan */
+
+#wrapper {
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+
+#header {
+    background-color: #ffffff;
+}
+
+.header-left a img {
+    height: 70px;
+    margin: 0px 0px;
+}
+
+nav {
+    margin-left: 10px;
+}
+
+ul#main-menu li a {
+    padding: 25px 5px 5px;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+
+ul#main-menu li:first-child a {
+    padding-left: 0px;
+}
+
+ul#main-menu li:hover a {
+    color: #f23e3e;
+}
+
+ul#user li a {
+    padding: 25px 5px 5px;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+
+ul#user li:hover a {
+    color: #f23e3e;
+}
+
+
+/* end menu */
+
+#content {
+    background-color: #EDEEF1;
+}
+
+.domestic-flight {
+    padding-top: 50px;
+    font-size: 24px;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.dash {
+    height: 6px;
+    width: 150px;
+    background-color: #f23e3e;
+    margin: 0 auto;
+}
+
+
+/* end tieu de noi dia*/
+
+.box-body {
+    margin-top: 30px;
+}
+
+.list-box {
+    display: inline-block;
+}
+
+ul.list-box li .post-thumb {
+    display: block;
+    overflow: hidden;
+}
+
+ul.list-box li {
+    flex: 0 1 360px;
+    margin: 0px 10px;
+}
+
+ul.list-box li .more-info a.post-title {
+    color: #5f5f5f;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+    display: block;
+}
+
+.list-box li .post-thumb img {
+    width: 100%;
+    min-height: 300px;
+}
+
+.post-thumb:hover img {
+    transform: scale(1.5);
+    transition: all ease-in-out 0.75s;
+}
+
+.more-info {
+    padding: 0px 10px;
+    border: 1px solid hsla(0, 7%, 81%, 0.863);
+    background-color: #ffffff;
+}
+
+.more-info .post-title {
+    text-decoration: none;
+}
+
+button {
+    width: 396px;
+    min-height: 50px;
+    background-color: #ffffff;
+    border: 0.2px solid hsla(0, 7%, 81%, 0.863);
+}
+
+button:hover {
+    background-color: #f23e3e;
+}
+
+
+/* end ban ve noi dia */
+
+#footer {
+    background: #EDEEF1;
+    padding-top: 52px;
+    padding-bottom: 75px;
+}
+
+#footer .box .box-head h3 {
+    background: none;
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#footer .box.logo-footer {
+    flex: 280px;
+    padding-right: 15px;
+}
+
+#footer .box.logo-footer .box-head img {
+    width: 250px;
+    height: 80px;
+}
+
+#footer .box.about-us {
+    flex: 680px;
+    padding-right: 180px;
+    padding-left: 15px;
+}
+
+#footer .about-us a {
+    color: #4db2ec;
+}
+
+#footer .box.follow-us {
+    flex: 180px;
+    padding-left: 15px;
+}
+
+#footer .box .box-body {
+    font-size: 14px;
+}
+
+ul.list-social li {
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+ul.list-social li:first-child {
+    margin-left: 0px;
+}
+
+ul.list-social li a {
+    background: #434648;
+    padding: 5px 8px;
+    color: #eeeeee;
+    display: block;
+}
+
+ul.list-social li:hover a {
+    color: #4db2ec;
+}
+
+
+/* end footer */
+
+#wp-copyright {
+    background: #222527;
+    color: #ffffff;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+#wp-copyright .copyright {
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+ul#footer-menu li a {
+    font-size: 16px;
+    color: #f3f3f3;
+    padding: 0px 13px;
+    display: block;
+}
+
+ul#footer-menu li:hover a {
+    color: #4db2ec;
+    text-decoration: none;
+}
+
+ul#footer-menu li:last-child a {
+    padding-right: 0;
+}
+
+
+/* end copyright */
